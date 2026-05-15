@@ -1,0 +1,10 @@
+Problemas da base a serem investigados:
+1. Número de lutas. A principio eu tinha entendido que o número de lutas era só o número de lutas no UFC, mas já vi alguns casos em que 
+a base usa wins antes do UFC. Investigar se usa losses tbm e como isso afeta os dados
+
+2. Atletas que lutam sempre 5 rounds, tem mais volume de golpe. Medir por round é uma possível saída
+
+3. Investigar confiabilidade as estatísticas. Elas foram coletadas antes da luta ou no momento do scrapping?? Se não, talvez tenha que mudar o dataset todo. 
+Em cada luta, pegar estatística da luta anterior
+
+4. Investigar estratégias diferentes: incluir lutas 2014 -> mais dado
